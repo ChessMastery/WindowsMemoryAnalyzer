@@ -1,0 +1,3 @@
+Simple single source file (Program.cs) Windows memory analyzer. You can start any executable on your computer by passing the path to it and command line arguments and print memory consumption statistics for this process as you wish. Even if you have never studied C#, source code is easily modifiable: for example, you can add new properties to be printed and change time intervals. You need .NET platform to compile the app.
+I needed to check memory consumption of applications on Windows, but did not find a convenient memory profiler, which was quite a surprise. It exists for sure, but I am more than satisfied with this app functionality and the ease of use for now.
+The idea to use System.Diagnostics.Process API was kindly given to me by https://github.com/mikeroyak. 
